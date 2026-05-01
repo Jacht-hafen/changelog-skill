@@ -19,7 +19,7 @@ All three are generated every time. You pick what you need.
 ```bash
 # from your project root
 mkdir -p skills/changelog
-curl -sL https://raw.githubusercontent.com/<your-username>/changelog-skill/main/skills/changelog/SKILL.md \
+curl -sL https://raw.githubusercontent.com/<Jacht-hafen>/changelog-skill/main/skills/changelog/SKILL.md \
   -o skills/changelog/SKILL.md
 ```
 
@@ -38,7 +38,7 @@ claude plugins install ./changelog-skill-distributable.plugin
 ### Option 3 — Clone this repo and copy manually
 
 ```bash
-git clone https://github.com/<your-username>/changelog-skill.git
+git clone https://github.com/<Jacht-hafen>/changelog-skill.git
 cp -r changelog-skill/skills/changelog /your-project/skills/changelog
 ```
 
