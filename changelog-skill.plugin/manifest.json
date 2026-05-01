@@ -1,0 +1,10 @@
+{
+  "id": "changelog-skill",
+  "name": "Changelog Generator",
+  "version": "1.0.0",
+  "description": "Auto-generate changelogs and release notes from Git history",
+  "author": "jarne",
+  "skills": ["skills/changelog"],
+  "mcps": [],
+  "icon": "scroll"
+}

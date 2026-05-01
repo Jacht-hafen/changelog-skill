@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir -p /Users/jarne/Desktop/Claude_Skill/skills/changelog)",
+      "Bash(mkdir -p /Users/jarne/Desktop/Claude_Skill/changelog-skill.plugin/skills/changelog)",
+      "Bash(zip -r changelog-skill.zip changelog-skill.plugin/)",
+      "Bash(zip -r /tmp/changelog-skill-bundle.zip changelog-skill.plugin/)",
+      "Bash(cp /tmp/changelog-skill-bundle.zip ./changelog-skill-distributable.plugin)",
+      "Bash(zip -r /tmp/changelog-skill-clean.zip changelog-skill.plugin/)",
+      "Bash(cp /tmp/changelog-skill-clean.zip ./changelog-skill-distributable.plugin)"
+    ]
+  }
+}
